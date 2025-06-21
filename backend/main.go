@@ -1,7 +1,9 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
+	"strconv"
 
 	"github.com/aklantan/foodcaptain/backend/handlers"
 	"github.com/aklantan/foodcaptain/backend/models"
@@ -17,8 +19,23 @@ type apiConfig struct {
 }
 
 func (c *apiConfig) returnRestaurants(g *gin.Context) {
+	limit := 0
+	l := g.Query("limit")
+	if l != "" {
+		lint, err := strconv.Atoi(l)
+		if err != nil {
+			fmt.Println("Conversion failed")
+			g.JSON(http.StatusBadRequest, gin.H{"message": "cannot convert limit to number"})
+			return
+		}
+		limit = lint
+	}
+	if limit == 0 {
+		g.JSON(http.StatusBadRequest, gin.H{"message": "please provide a limit"})
+		return
+	}
 	var restaurants []models.Restaurant
-	c.db_query.Find(&restaurants)
+	c.db_query.Order("RANDOM()").Limit(limit).Find(&restaurants)
 	g.JSON(http.StatusOK, gin.H{"restaurants": restaurants})
 
 }
