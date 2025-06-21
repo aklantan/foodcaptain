@@ -19,9 +19,11 @@ func main() {
 	db := queries.InitDB()
 
 	var restaurant []models.Restaurant
-	result := db.Find(&restaurant)
+	db.Find(&restaurant)
 
-	fmt.Println(result)
+	for _, res := range restaurant {
+		fmt.Println(res.RestaurantName)
+	}
 
 	server := gin.Default()
 	server.GET("/test", handlers.TestConnection)
