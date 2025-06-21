@@ -1,4 +1,4 @@
-module aklantan/foodcaptain
+module github/aklantan/foodcaptain
 
 go 1.23.0
 
