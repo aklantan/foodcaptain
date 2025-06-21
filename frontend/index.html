@@ -1,1 +1,25 @@
 <h1>Welcome to FoodCaptain</h1>
+
+<button onclick="loadRestaurants()">Show Restaurants</button>
+<ul id="restaurant-list"></ul>
+
+<script>
+  async function loadRestaurants() {
+    try {
+      const res = await fetch('/restaurants');
+      const data = await res.json();
+
+      const list = document.getElementById('restaurant-list');
+      list.innerHTML = ''; // clear existing
+
+      data.restaurants.forEach(r => {
+        const item = document.createElement('li');
+        item.textContent = `${r.RestaurantName} (${r.Cuisine || 'Unknown'})`;
+        list.appendChild(item);
+      });
+    } catch (err) {
+      console.error('Failed to fetch restaurants:', err);
+    }
+  }
+</script>
+

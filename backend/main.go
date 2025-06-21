@@ -19,7 +19,7 @@ type apiConfig struct {
 func (c *apiConfig) returnRestaurants(g *gin.Context) {
 	var restaurants []models.Restaurant
 	c.db_query.Find(&restaurants)
-	g.JSON(http.StatusOK, gin.H{"restaraunts": restaurants})
+	g.JSON(http.StatusOK, gin.H{"restaurants": restaurants})
 
 }
 
