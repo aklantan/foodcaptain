@@ -2,13 +2,15 @@ package queries
 
 import (
 	"log"
+	"os"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
 
 func InitDB() *gorm.DB {
-	dsn := "host=localhost user=your_user password=your_pass dbname=your_db port=5432 sslmode=disable"
+
+	dsn := os.Getenv("DATABASE_URL")
 
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
