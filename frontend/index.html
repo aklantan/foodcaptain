@@ -1,25 +1,66 @@
-<h1>Welcome to FoodCaptain</h1>
-
-<button onclick="loadRestaurants()">Show Restaurants</button>
-<ul id="restaurant-list"></ul>
-
-<script>
-  async function loadRestaurants() {
-    try {
-      const res = await fetch('/restaurants');
-      const data = await res.json();
-
-      const list = document.getElementById('restaurant-list');
-      list.innerHTML = ''; // clear existing
-
-      data.restaurants.forEach(r => {
-        const item = document.createElement('li');
-        item.textContent = `${r.RestaurantName} (${r.Cuisine || 'Unknown'})`;
-        list.appendChild(item);
-      });
-    } catch (err) {
-      console.error('Failed to fetch restaurants:', err);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FoodCaptain</title>
+  <style>
+    #restaurant-list {
+      height: 200px;       /* Reserve space */
+      width: 300px;        /* Optional: set a width */
+      overflow-y: auto;    /* Scroll if it overflows */
+      border: 1px solid #ccc;
+      padding: 10px;
+      list-style-type: disc;
+      background-color: #f9f9f9;
     }
-  }
-</script>
+  </style>
+</head>
+<body>
+  <h1>Welcome to FoodCaptain</h1>
+
+  <button onclick="loadRestaurants()">Show Restaurants</button>
+  <label for="food-choice">Choose a food category:</label>
+  <select id="food-choice" name="food-choice">
+    <option value="pizza">Pizza</option>
+    <option value="sushi">Sushi</option>
+    <option value="burgers">Burgers</option>
+    <option value="salads">Salads</option>
+  </select>
+  <label for="diner-numbers">How many are dining today:</label>
+  <select id="diner-numbers" name="diner-numbers">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+  <ul id="restaurant-list"></ul>
+
+  <script>
+    const dinerDropdown = document.getElementById("diner-numbers")
+    let dinerNumber = dinerDropdown.value
+    dinerDropdown.addEventListener("change", function (){dinerNumber = dinerDropdown.value})
+    async function loadRestaurants() {
+      try {
+        const params = new URLSearchParams({limit:dinerNumber})
+        const url = `/restaurants?${params.toString()}`
+        const res = await fetch(url);
+        console.log("Fetching from:", url);
+        const data = await res.json();
+
+        const list = document.getElementById('restaurant-list');
+        list.innerHTML = ''; // clear existing
+
+        data.restaurants.forEach(r => {
+          const item = document.createElement('li');
+          item.textContent = `${r.RestaurantName} (${r.Cuisine || 'Unknown'})`;
+          list.appendChild(item);
+        });
+      } catch (err) {
+        console.error('Failed to fetch restaurants:', err);
+      }
+    }
+  </script>
+</body>
+</html>
+
 
