@@ -19,20 +19,10 @@
   <h1>Welcome to FoodCaptain</h1>
 
   <button onclick="loadRestaurants()">Show Restaurants</button>
-  <label for="food-choice">Choose a food category:</label>
-  <select id="food-choice" name="food-choice">
-    <option value="pizza">Pizza</option>
-    <option value="sushi">Sushi</option>
-    <option value="burgers">Burgers</option>
-    <option value="salads">Salads</option>
-  </select>
+
+  
   <label for="diner-numbers">How many are dining today:</label>
-  <select id="diner-numbers" name="diner-numbers">
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-  </select>
+  <input type="number" id="diner-numbers" name="diner-numbers" min="1"/>
   <ul id="restaurant-list"></ul>
 
   <script>

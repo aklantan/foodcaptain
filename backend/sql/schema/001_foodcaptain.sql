@@ -4,7 +4,7 @@ CREATE TABLE restaurants(
     created_at TIMESTAMP NOT NULL,
     updated_at TIMESTAMP NOT NULL,
     restaurant_name TEXT NOT NULL,
-    cuisine TEXT
+    cuisine TEXT NOT NULL DEFAULT ''
 );
 
 -- +goose Down 

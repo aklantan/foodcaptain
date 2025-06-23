@@ -1,0 +1,3589 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Coity Castle",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1HA",
+        "suburb": "Bridgend",
+        "street": "Morfa Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5760461,
+        "lat": 51.5089202,
+        "state_code": "WLS",
+        "formatted": "The Coity Castle, Morfa Street, Bridgend, CF31 1HA, United Kingdom",
+        "address_line1": "The Coity Castle",
+        "address_line2": "Morfa Street, Bridgend, CF31 1HA, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Coity Castle",
+            "osm_id": 11913670711,
+            "amenity": "pub",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Morfa Street",
+            "addr:postcode": "CF31 1HA",
+            "opening_hours": "Mo Off; Tu-We 16:00-23:00; Th 16:00-24:00; Fr-Sa 16:00-25:00; Su 14:00-22:00"
+          }
+        },
+        "opening_hours": "Mo Off; Tu-We 16:00-23:00; Th 16:00-24:00; Fr-Sa 16:00-25:00; Su 14:00-22:00",
+        "place_id": "5121e8c30ebe9b0cc0597adb0d4c24c14940f00103f90137301cc60200000092031054686520436f69747920436173746c65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5760460999999997,
+          51.50892019917133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Roof",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1LJ",
+        "suburb": "Bridgend",
+        "street": "Market Street",
+        "housenumber": "35",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5770196,
+        "lat": 51.5085157,
+        "state_code": "WLS",
+        "formatted": "The Roof, 35 Market Street, Bridgend, CF31 1LJ, United Kingdom",
+        "address_line1": "The Roof",
+        "address_line2": "35 Market Street, Bridgend, CF31 1LJ, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.bar"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Roof",
+            "osm_id": 11913670718,
+            "amenity": "bar",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Market Street",
+            "addr:postcode": "CF31 1LJ",
+            "opening_hours": "Mo-Sa 21:00-28:00; Su Off",
+            "addr:housenumber": 35
+          }
+        },
+        "opening_hours": "Mo-Sa 21:00-28:00; Su Off",
+        "place_id": "514035b973bc9d0cc059cab8dc0a17c14940f00103f9013e301cc60200000092030854686520526f6f66"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5770196,
+          51.50851569917138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Chipyard",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1JS",
+        "suburb": "Bridgend",
+        "street": "Quarella Road",
+        "housenumber": "2a",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5781911,
+        "lat": 51.5083404,
+        "state_code": "WLS",
+        "formatted": "The Chipyard, 2a Quarella Road, Bridgend, CF31 1JS, United Kingdom",
+        "address_line1": "The Chipyard",
+        "address_line2": "2a Quarella Road, Bridgend, CF31 1JS, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food",
+          "catering.fast_food.fish_and_chips"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Chipyard",
+            "phone": "+441656651123",
+            "osm_id": 1179072416,
+            "amenity": "fast_food",
+            "cuisine": "fish_and_chips",
+            "website": "https://www.thechipyardbridgend.com",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Quarella Road",
+            "addr:postcode": "CF31 1JS",
+            "drive_through": "no",
+            "opening_hours": "Mo-Sa 11:30-21:00; Su 15:00-21:00",
+            "addr:housenumber": "2a"
+          }
+        },
+        "website": "https://www.thechipyardbridgend.com",
+        "opening_hours": "Mo-Sa 11:30-21:00; Su 15:00-21:00",
+        "contact": {
+          "phone": "+441656651123"
+        },
+        "catering": {
+          "cuisine": "fish_and_chips"
+        },
+        "place_id": "51c4b4caa722a00cc059a0d6564c11c14940f00103f901a03747460000000092030c546865204368697079617264"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5781910999999997,
+          51.5083403991714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coffee@12",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1LH",
+        "suburb": "Bridgend",
+        "street": "Derwen Road",
+        "housenumber": "12",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5767325,
+        "lat": 51.508318,
+        "state_code": "WLS",
+        "formatted": "Coffee@12, 12 Derwen Road, Bridgend, CF31 1LH, United Kingdom",
+        "address_line1": "Coffee@12",
+        "address_line2": "12 Derwen Road, Bridgend, CF31 1LH, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.cafe",
+          "catering.cafe.coffee",
+          "catering.cafe.coffee_shop"
+        ],
+        "details": [
+          "details",
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Coffee@12",
+            "osm_id": 10271302917,
+            "amenity": "cafe",
+            "cuisine": "coffee_shop",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Derwen Road",
+            "addr:country": "GB",
+            "addr:postcode": "CF31 1LH",
+            "opening_hours": "Mo Off; Tu Off; We-Fr 08:30-16:00; Sa 09:30-15:30; Su 10:00-14:30",
+            "addr:housenumber": 12
+          }
+        },
+        "opening_hours": "Mo Off; Tu Off; We-Fr 08:30-16:00; Sa 09:30-15:30; Su 10:00-14:30",
+        "catering": {
+          "cuisine": "coffee_shop"
+        },
+        "place_id": "519352d0ed259d0cc05968346f9010c14940f00103f90105a5376402000000920309436f66666565403132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5767325,
+          51.508317999171425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bridgend Oriental",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1LH",
+        "suburb": "Bridgend",
+        "street": "Derwen Road",
+        "housenumber": "6A",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5767343,
+        "lat": 51.5081638,
+        "state_code": "WLS",
+        "formatted": "Bridgend Oriental, 6A Derwen Road, Bridgend, CF31 1LH, United Kingdom",
+        "address_line1": "Bridgend Oriental",
+        "address_line2": "6A Derwen Road, Bridgend, CF31 1LH, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Bridgend Oriental",
+            "phone": "+44 1656 657142",
+            "osm_id": 10271302914,
+            "amenity": "fast_food",
+            "cuisine": "chinese",
+            "website": "https://bridgendoriental.com/",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Derwen Road",
+            "addr:country": "GB",
+            "addr:postcode": "CF31 1LH",
+            "opening_hours": "Mo-Su 16:00-23:00",
+            "addr:housenumber": "6A"
+          }
+        },
+        "website": "https://bridgendoriental.com/",
+        "opening_hours": "Mo-Su 16:00-23:00",
+        "contact": {
+          "phone": "+44 1656 657142"
+        },
+        "catering": {
+          "cuisine": "chinese"
+        },
+        "place_id": "5104da67df269d0cc059e639e9820bc14940f00103f90102a53764020000009203114272696467656e64204f7269656e74616c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5767343,
+          51.50816379917141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Red Lantern",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1EB",
+        "suburb": "Bridgend",
+        "street": "Wyndham Street",
+        "housenumber": "49",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5769125,
+        "lat": 51.5081379,
+        "state_code": "WLS",
+        "formatted": "New Red Lantern, 49 Wyndham Street, Bridgend, CF31 1EB, United Kingdom",
+        "address_line1": "New Red Lantern",
+        "address_line2": "49 Wyndham Street, Bridgend, CF31 1EB, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "New Red Lantern",
+            "osm_id": 4842050024,
+            "amenity": "restaurant",
+            "fhrs:id": 967741,
+            "name:en": "New Red Lantern",
+            "osm_type": "n",
+            "addr:street": "Wyndham Street",
+            "addr:postcode": "CF31 1EB",
+            "addr:housenumber": 49
+          }
+        },
+        "name_international": {
+          "en": "New Red Lantern"
+        },
+        "place_id": "51933a014d849d0cc0595666a5a90ac14940f00103f901e8d19b200100000092030f4e657720526564204c616e7465726e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5769125,
+          51.508137899171444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eden Bar & Lounge",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1LJ",
+        "suburb": "Bridgend",
+        "street": "Market Street",
+        "housenumber": "33",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5777714,
+        "lat": 51.5081293,
+        "state_code": "WLS",
+        "formatted": "Eden Bar & Lounge, 33 Market Street, Bridgend, CF31 1LJ, United Kingdom",
+        "address_line1": "Eden Bar & Lounge",
+        "address_line2": "33 Market Street, Bridgend, CF31 1LJ, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.bar"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Eden Bar & Lounge",
+            "osm_id": 11929491613,
+            "amenity": "bar",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Market Street",
+            "addr:postcode": "CF31 1LJ",
+            "opening_hours": "Mo-We Off; Th 17:00-25:00; Fr-Sa 14:00-25:00; Su 15:00-25:00",
+            "addr:housenumber": 33
+          }
+        },
+        "opening_hours": "Mo-We Off; Th 17:00-25:00; Fr-Sa 14:00-25:00; Su 15:00-25:00",
+        "place_id": "5159839c9c469f0cc059530a81610ac14940f00103f9019d980dc7020000009203114564656e204261722026204c6f756e6765"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5777714,
+          51.50812929917142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Tair Pluen",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1JS",
+        "suburb": "Bridgend",
+        "street": "Quarella Road",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5782009,
+        "lat": 51.5080652,
+        "state_code": "WLS",
+        "formatted": "The Tair Pluen, Quarella Road, Bridgend, CF31 1JS, United Kingdom",
+        "address_line1": "The Tair Pluen",
+        "address_line2": "Quarella Road, Bridgend, CF31 1JS, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub"
+        ],
+        "details": [
+          "details",
+          "details.restrictions",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "food": "no",
+            "name": "The Tair Pluen",
+            "osm_id": 1179072414,
+            "vaping": "no",
+            "amenity": "pub",
+            "brewery": "john_smiths;strongbow;strongbow_dark_fruits",
+            "karaoke": "Friday Afternoons",
+            "min_age": 18,
+            "website": "https://www.craftunionpubs.com/tairpluen-bridgend",
+            "alt_name": "The Litten Tree; 2 Feathers",
+            "children": "no",
+            "osm_type": "n",
+            "wikidata": "Q80583700",
+            "addr:city": "Bridgend",
+            "addr:unit": 3,
+            "live_music": "occasional",
+            "addr:street": "Quarella Road",
+            "addr:postcode": "CF31 1JS",
+            "opening_hours": "Mo-Fr 08:00-23:00; Sa 08:00-24:00; Su 10:00-23:00",
+            "billiards:pool": 1
+          }
+        },
+        "website": "https://www.craftunionpubs.com/tairpluen-bridgend",
+        "opening_hours": "Mo-Fr 08:00-23:00; Sa 08:00-24:00; Su 10:00-23:00",
+        "name_other": {
+          "alt_name": "The Litten Tree; 2 Feathers"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q80583700"
+        },
+        "restrictions": {
+          "min_age": 18
+        },
+        "place_id": "51622420cb27a00cc059a856cb4708c14940f00103f9019e3747460000000092030e546865205461697220506c75656e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5782008999999997,
+          51.508065199171426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "U.S.A Fried Chicken",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1EB",
+        "suburb": "Bridgend",
+        "street": "Wyndham Street",
+        "housenumber": "39",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5771028,
+        "lat": 51.5080302,
+        "state_code": "WLS",
+        "formatted": "U.S.A Fried Chicken, 39 Wyndham Street, Bridgend, CF31 1EB, United Kingdom",
+        "address_line1": "U.S.A Fried Chicken",
+        "address_line2": "39 Wyndham Street, Bridgend, CF31 1EB, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "U.S.A Fried Chicken",
+            "osm_id": 4842050225,
+            "amenity": "restaurant",
+            "fhrs:id": 967652,
+            "name:en": "U.S.A Fried Chicken",
+            "osm_type": "n",
+            "addr:street": "Wyndham Street",
+            "addr:postcode": "CF31 1EB",
+            "addr:housenumber": 39
+          }
+        },
+        "name_international": {
+          "en": "U.S.A Fried Chicken"
+        },
+        "place_id": "51b270a312e89d0cc0592c69312207c14940f00103f901b1d29b2001000000920313552e532e4120467269656420436869636b656e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5771027999999996,
+          51.50803019917143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Railway",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1LH",
+        "suburb": "Bridgend",
+        "street": "Derwen Road",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5766592,
+        "lat": 51.5079583,
+        "state_code": "WLS",
+        "formatted": "The Railway, Derwen Road, Bridgend, CF31 1LH, United Kingdom",
+        "address_line1": "The Railway",
+        "address_line2": "Derwen Road, Bridgend, CF31 1LH, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub"
+        ],
+        "details": [
+          "details",
+          "details.contact",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Railway",
+            "email": "therailwayinnbridgend@gmail.com",
+            "phone": "+44 1656 652 266",
+            "osm_id": 1531342456,
+            "amenity": "pub",
+            "fhrs:id": 967740,
+            "osm_type": "n",
+            "wikidata": "Q80858207",
+            "addr:street": "Derwen Road",
+            "addr:postcode": "CF31 1LH",
+            "opening_hours": "Mo-We 11:00-21:45; Th-Sa 11:00-26:00; Su 11:00-26:30"
+          }
+        },
+        "opening_hours": "Mo-We 11:00-21:45; Th-Sa 11:00-26:00; Su 11:00-26:30",
+        "contact": {
+          "phone": "+44 1656 652 266",
+          "email": "therailwayinnbridgend@gmail.com"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q80858207"
+        },
+        "place_id": "510c80a77fff9c0cc0592b560dc704c14940f00103f901786e465b0000000092030b546865205261696c776179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5766592,
+          51.507958299171456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bridgend Balti House",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1LJ",
+        "suburb": "Bridgend",
+        "street": "Market Street",
+        "housenumber": "27",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5780257,
+        "lat": 51.507956,
+        "state_code": "WLS",
+        "formatted": "Bridgend Balti House, 27 Market Street, Bridgend, CF31 1LJ, United Kingdom",
+        "address_line1": "Bridgend Balti House",
+        "address_line2": "27 Market Street, Bridgend, CF31 1LJ, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Bridgend Balti House",
+            "phone": "+44 1656 649191",
+            "osm_id": 10271768873,
+            "amenity": "fast_food",
+            "cuisine": "indian",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Market Street",
+            "addr:country": "GB",
+            "addr:postcode": "CF31 1LJ",
+            "opening_hours": "Mo-Su 17:30-22:30",
+            "addr:housenumber": 27
+          }
+        },
+        "opening_hours": "Mo-Su 17:30-22:30",
+        "contact": {
+          "phone": "+44 1656 649191"
+        },
+        "catering": {
+          "cuisine": "indian"
+        },
+        "place_id": "51e5fa2df0cb9f0cc059cd1fc2b304c14940f00103f90129c13e64020000009203144272696467656e642042616c746920486f757365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5780257,
+          51.507955999171465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marmaris Kebab & Pizza House",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1EB",
+        "suburb": "Bridgend",
+        "street": "Wyndham Street",
+        "housenumber": "33",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5773003,
+        "lat": 51.5079373,
+        "state_code": "WLS",
+        "formatted": "Marmaris Kebab & Pizza House, 33 Wyndham Street, Bridgend, CF31 1EB, United Kingdom",
+        "address_line1": "Marmaris Kebab & Pizza House",
+        "address_line2": "33 Wyndham Street, Bridgend, CF31 1EB, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Marmaris Kebab & Pizza House",
+            "osm_id": 4842069221,
+            "amenity": "fast_food",
+            "fhrs:id": 1092347,
+            "name:en": "Marmaris Kebab & Pizza House",
+            "osm_type": "n",
+            "addr:street": "Wyndham Street",
+            "addr:postcode": "CF31 1EB",
+            "addr:housenumber": 33
+          }
+        },
+        "name_international": {
+          "en": "Marmaris Kebab & Pizza House"
+        },
+        "place_id": "5195c4a39e4f9e0cc059152ee41604c14940f00103f901e51c9c200100000092031c4d61726d61726973204b6562616220262050697a7a6120486f757365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5773002999999997,
+          51.507937299171466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ocean Café & Restaurant",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1EH",
+        "suburb": "Bridgend",
+        "street": "Wyndham Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5773726,
+        "lat": 51.5078879,
+        "state_code": "WLS",
+        "formatted": "Ocean Café & Restaurant, Wyndham Street, Bridgend, CF31 1EH, United Kingdom",
+        "address_line1": "Ocean Café & Restaurant",
+        "address_line2": "Wyndham Street, Bridgend, CF31 1EH, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Ocean Café & Restaurant",
+            "osm_id": 4842050226,
+            "amenity": "restaurant",
+            "name:en": "Ocean Café & Restaurant",
+            "osm_type": "n"
+          }
+        },
+        "name_international": {
+          "en": "Ocean Café & Restaurant"
+        },
+        "place_id": "5117da9486759e0cc059e17c7e7802c14940f00103f901b2d29b20010000009203184f6365616e20436166c3a920262052657374617572616e74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5773726,
+          51.50788789917147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beat",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1EA",
+        "suburb": "Bridgend",
+        "street": "Station Hill",
+        "housenumber": "1a",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5765251,
+        "lat": 51.5078656,
+        "state_code": "WLS",
+        "formatted": "Beat, 1a Station Hill, Bridgend, CF31 1EA, United Kingdom",
+        "address_line1": "Beat",
+        "address_line2": "1a Station Hill, Bridgend, CF31 1EA, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.cafe",
+          "catering.cafe.coffee",
+          "catering.cafe.coffee_shop"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Beat",
+            "phone": "+44 1656 530801",
+            "osm_id": 10273102818,
+            "amenity": "cafe",
+            "cuisine": "coffee_shop",
+            "website": "https://beatbakehouse.com/",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Station Hill",
+            "addr:country": "GB",
+            "addr:postcode": "CF31 1EA",
+            "opening_hours": "Mo-Sa 06:30-15:30",
+            "addr:housenumber": "1a"
+          }
+        },
+        "website": "https://beatbakehouse.com/",
+        "opening_hours": "Mo-Sa 06:30-15:30",
+        "contact": {
+          "phone": "+44 1656 530801"
+        },
+        "catering": {
+          "cuisine": "coffee_shop"
+        },
+        "place_id": "51c4950e31b99c0cc0593a9a6dbd01c14940f00103f901e21b53640200000092030442656174"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5765250999999996,
+          51.50786559917147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cody's",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1EH",
+        "suburb": "Bridgend",
+        "street": "Wyndham Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5769328,
+        "lat": 51.5077888,
+        "state_code": "WLS",
+        "formatted": "Cody's, Wyndham Street, Bridgend, CF31 1EH, United Kingdom",
+        "address_line1": "Cody's",
+        "address_line2": "Wyndham Street, Bridgend, CF31 1EH, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Cody's",
+            "osm_id": 1531354842,
+            "amenity": "pub",
+            "osm_type": "n"
+          }
+        },
+        "place_id": "51ecea9ff18e9d0cc059badb2e39ffc04940f00103f901da9e465b00000000920306436f64792773"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5769328,
+          51.50778879917148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Phoenix",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1EH",
+        "suburb": "Bridgend",
+        "street": "Wyndham Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5773567,
+        "lat": 51.5077278,
+        "state_code": "WLS",
+        "formatted": "The Phoenix, Wyndham Street, Bridgend, CF31 1EH, United Kingdom",
+        "address_line1": "The Phoenix",
+        "address_line2": "Wyndham Street, Bridgend, CF31 1EH, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub"
+        ],
+        "details": [
+          "details",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Phoenix",
+            "osm_id": 4842050227,
+            "amenity": "pub",
+            "fhrs:id": 1152397,
+            "name:en": "The Phoenix",
+            "osm_type": "n",
+            "wikidata": "Q80858175",
+            "addr:street": "Wyndham Street",
+            "addr:postcode": "CF31 1EH"
+          }
+        },
+        "name_international": {
+          "en": "The Phoenix"
+        },
+        "wiki_and_media": {
+          "wikidata": "Q80858175"
+        },
+        "place_id": "510a0385306d9e0cc059175b7a39fdc04940f00103f901b3d29b200100000092030b5468652050686f656e6978"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5773567,
+          51.5077277991715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ty Coffi",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1LJ",
+        "suburb": "Bridgend",
+        "street": "Market Street",
+        "housenumber": "19",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5782317,
+        "lat": 51.5076678,
+        "state_code": "WLS",
+        "formatted": "Ty Coffi, 19 Market Street, Bridgend, CF31 1LJ, United Kingdom",
+        "address_line1": "Ty Coffi",
+        "address_line2": "19 Market Street, Bridgend, CF31 1LJ, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.cafe",
+          "catering.cafe.coffee",
+          "catering.cafe.coffee_shop"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Ty Coffi",
+            "osm_id": 1531271411,
+            "amenity": "cafe",
+            "cuisine": "coffee_shop",
+            "fhrs:id": 1096346,
+            "osm_type": "n",
+            "addr:street": "Market Street",
+            "addr:postcode": "CF31 1LJ",
+            "addr:housenumber": 19
+          }
+        },
+        "catering": {
+          "cuisine": "coffee_shop"
+        },
+        "place_id": "51781508f137a00cc05942562942fbc04940f00103f901f358455b00000000920308547920436f666669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5782317,
+          51.5076677991715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bridge Doner",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1ED",
+        "suburb": "Bridgend",
+        "street": "Market Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5782947,
+        "lat": 51.5076328,
+        "state_code": "WLS",
+        "formatted": "Bridge Doner, Market Street, Bridgend, CF31 1ED, United Kingdom",
+        "address_line1": "Bridge Doner",
+        "address_line2": "Market Street, Bridgend, CF31 1ED, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food",
+          "catering.fast_food.kebab"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Bridge Doner",
+            "osm_id": 11929491614,
+            "amenity": "fast_food",
+            "cuisine": "kebab",
+            "osm_type": "n"
+          }
+        },
+        "catering": {
+          "cuisine": "kebab"
+        },
+        "place_id": "51de99bff858a00cc059c6688f1cfac04940f00103f9019e980dc70200000092030c42726964676520446f6e6572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5782947,
+          51.5076327991715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bridgend Sandwich Bar",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1EJ",
+        "suburb": "Bridgend",
+        "street": "Adare Street",
+        "housenumber": "40",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5778042,
+        "lat": 51.507517,
+        "state_code": "WLS",
+        "formatted": "Bridgend Sandwich Bar, 40 Adare Street, Bridgend, CF31 1EJ, United Kingdom",
+        "address_line1": "Bridgend Sandwich Bar",
+        "address_line2": "40 Adare Street, Bridgend, CF31 1EJ, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Bridgend Sandwich Bar",
+            "osm_id": 4842050228,
+            "amenity": "fast_food",
+            "fhrs:id": 967340,
+            "name:en": "Bridgend Sandwich Bar",
+            "osm_type": "n",
+            "addr:street": "Adare Street",
+            "addr:postcode": "CF31 1EJ",
+            "addr:housenumber": 40
+          }
+        },
+        "name_international": {
+          "en": "Bridgend Sandwich Bar"
+        },
+        "place_id": "517beef3ce579f0cc05986cd2851f6c04940f00103f901b4d29b20010000009203154272696467656e642053616e647769636820426172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5778042000000005,
+          51.5075169991715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greggs",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1ET",
+        "suburb": "Bridgend",
+        "street": "Adare Street",
+        "housenumber": "15",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5778049,
+        "lat": 51.5074653,
+        "state_code": "WLS",
+        "formatted": "Greggs, 15 Adare Street, Bridgend, CF31 1ET, United Kingdom",
+        "address_line1": "Greggs",
+        "address_line2": "15 Adare Street, Bridgend, CF31 1ET, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food",
+          "catering.fast_food.sandwich",
+          "commercial",
+          "commercial.food_and_drink",
+          "commercial.food_and_drink.bakery"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Greggs",
+            "shop": "bakery",
+            "brand": "Greggs",
+            "phone": "+44 1656 663406",
+            "osm_id": 10271768874,
+            "amenity": "fast_food",
+            "cuisine": "sandwich;bakery",
+            "osm_type": "n",
+            "takeaway": "yes",
+            "addr:city": "Bridgend",
+            "addr:street": "Adare Street",
+            "addr:country": "GB",
+            "addr:postcode": "CF31 1ET",
+            "opening_hours": "Mo-Sa 06:30-20:30",
+            "brand:wikidata": "Q3403981",
+            "contact:website": "https://www.greggs.co.uk/shop-finder?shop-code=2449",
+            "addr:housenumber": 15
+          }
+        },
+        "website": "https://www.greggs.co.uk/shop-finder?shop-code=2449",
+        "opening_hours": "Mo-Sa 06:30-20:30",
+        "brand": "Greggs",
+        "brand_details": {
+          "wikidata": "Q3403981"
+        },
+        "contact": {
+          "phone": "+44 1656 663406"
+        },
+        "facilities": {
+          "takeaway": true
+        },
+        "catering": {
+          "cuisine": "sandwich;bakery"
+        },
+        "commercial": {
+          "type": "bakery"
+        },
+        "place_id": "5197bfe72c589f0cc059f4e5779ff4c04940f00103f9012ac13e6402000000920306477265676773"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5778049,
+          51.507465299171514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Star",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1LJ",
+        "suburb": "Bridgend",
+        "street": "Market Street",
+        "housenumber": "17",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.579175,
+        "lat": 51.5073074,
+        "state_code": "WLS",
+        "formatted": "The Star, 17 Market Street, Bridgend, CF31 1LJ, United Kingdom",
+        "address_line1": "The Star",
+        "address_line2": "17 Market Street, Bridgend, CF31 1LJ, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Star",
+            "osm_id": 11929476364,
+            "amenity": "pub",
+            "fhrs:id": 967869,
+            "karaoke": "regular",
+            "smoking": "outside",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Market Street",
+            "addr:postcode": "CF31 1LJ",
+            "opening_hours": "Mo-Sa 11:00-23:00; Su Off",
+            "outdoor_seating": "yes",
+            "addr:housenumber": 17
+          }
+        },
+        "opening_hours": "Mo-Sa 11:00-23:00; Su Off",
+        "facilities": {
+          "smoking": true,
+          "outdoor_seating": true
+        },
+        "place_id": "5152499d8026a20cc059f53ae872efc04940f00103f9010c5d0dc7020000009203085468652053746172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.579175,
+          51.507307399171545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Natraj",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1EF",
+        "suburb": "Bridgend",
+        "street": "Wyndham Street",
+        "housenumber": "16",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5782561,
+        "lat": 51.5072592,
+        "state_code": "WLS",
+        "formatted": "Natraj, 16 Wyndham Street, Bridgend, CF31 1EF, United Kingdom",
+        "address_line1": "Natraj",
+        "address_line2": "16 Wyndham Street, Bridgend, CF31 1EF, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "catering.restaurant.indian"
+        ],
+        "details": [
+          "details.catering",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Natraj",
+            "osm_id": 4842050230,
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Wyndham Street",
+            "addr:postcode": "CF31 1EF",
+            "outdoor_seating": "yes",
+            "addr:housenumber": 16
+          }
+        },
+        "facilities": {
+          "outdoor_seating": true
+        },
+        "catering": {
+          "cuisine": "indian"
+        },
+        "place_id": "5136b3f1bb44a00cc059ba8493deedc04940f00103f901b6d29b20010000009203064e617472616a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5782561,
+          51.50725919917154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "An Khang",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Newcastle",
+        "postcode": "CF31 4AU",
+        "suburb": "Bridgend",
+        "street": "A4061",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5812192,
+        "lat": 51.5072333,
+        "state_code": "WLS",
+        "formatted": "An Khang, A4061, Newcastle, CF31 4AU, United Kingdom",
+        "address_line1": "An Khang",
+        "address_line2": "A4061, Newcastle, CF31 4AU, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "An Khang",
+            "osm_id": 4842069323,
+            "amenity": "restaurant",
+            "name:en": "An Khang",
+            "osm_type": "n"
+          }
+        },
+        "name_international": {
+          "en": "An Khang"
+        },
+        "place_id": "5151757e4056a60cc05927b14f05edc04940f00103f9014b1d9c2001000000920308416e204b68616e67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5812192,
+          51.50723329917155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Colosseo Italian Restaurant",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1EF",
+        "suburb": "Bridgend",
+        "street": "Wyndham Street",
+        "housenumber": "14",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5783341,
+        "lat": 51.5072252,
+        "state_code": "WLS",
+        "formatted": "Colosseo Italian Restaurant, 14 Wyndham Street, Bridgend, CF31 1EF, United Kingdom",
+        "address_line1": "Colosseo Italian Restaurant",
+        "address_line2": "14 Wyndham Street, Bridgend, CF31 1EF, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Colosseo Italian Restaurant",
+            "osm_id": 11929491599,
+            "amenity": "restaurant",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Wyndham Street",
+            "addr:postcode": "CF31 1EF",
+            "addr:housenumber": 14
+          }
+        },
+        "place_id": "51f14aeda06da00cc0590f135dc1ecc04940f00103f9018f980dc70200000092031b436f6c6f7373656f204974616c69616e2052657374617572616e74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5783340999999997,
+          51.50722519917155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sax",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1BD",
+        "suburb": "Bridgend",
+        "street": "Derwen Road",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5767525,
+        "lat": 51.5069869,
+        "state_code": "WLS",
+        "formatted": "Sax, Derwen Road, Bridgend, CF31 1BD, United Kingdom",
+        "address_line1": "Sax",
+        "address_line2": "Derwen Road, Bridgend, CF31 1BD, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.bar"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Sax",
+            "osm_id": 4842050224,
+            "amenity": "bar",
+            "name:en": "Sax",
+            "osm_type": "n"
+          }
+        },
+        "name_international": {
+          "en": "Sax"
+        },
+        "place_id": "5104172b6a309d0cc0599eb85bf2e4c04940f00103f901b0d29b2001000000920303536178"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5767524999999996,
+          51.506986899171565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Little Bar On The Bridge",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1JH",
+        "suburb": "Bridgend",
+        "street": "Dunraven Place",
+        "housenumber": "3",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5802338,
+        "lat": 51.5069276,
+        "state_code": "WLS",
+        "formatted": "The Little Bar On The Bridge, 3 Dunraven Place, Bridgend, CF31 1JH, United Kingdom",
+        "address_line1": "The Little Bar On The Bridge",
+        "address_line2": "3 Dunraven Place, Bridgend, CF31 1JH, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub"
+        ],
+        "details": [
+          "details",
+          "details.facilities",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Little Bar On The Bridge",
+            "osm_id": 6592792687,
+            "amenity": "pub",
+            "brewery": "various",
+            "fhrs:id": 1044754,
+            "name:cy": "Y Bar Bach Ar Y Bont",
+            "smoking": "outside",
+            "website": "https://thelittlebaronthebridge.co.uk",
+            "osm_type": "n",
+            "wikidata": "Q80583716",
+            "addr:city": "Bridgend",
+            "addr:street": "Old Bridge",
+            "addr:postcode": "CF31 1JH",
+            "opening_hours": "Mo Off; Tu Off; We-Sa 14:00-22:00; Su 14:00-21:00",
+            "addr:housenumber": 3
+          }
+        },
+        "website": "https://thelittlebaronthebridge.co.uk",
+        "opening_hours": "Mo Off; Tu Off; We-Sa 14:00-22:00; Su 14:00-21:00",
+        "name_international": {
+          "cy": "Y Bar Bach Ar Y Bont"
+        },
+        "facilities": {
+          "smoking": true
+        },
+        "wiki_and_media": {
+          "wikidata": "Q80583716"
+        },
+        "place_id": "513b45589e51a40cc059dff0e900e3c04940f00103f9016f08f6880100000092031c546865204c6974746c6520426172204f6e2054686520427269646765"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5802338,
+          51.5069275991716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greggs",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1ET",
+        "suburb": "Bridgend",
+        "street": "Adare Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5780193,
+        "lat": 51.5068296,
+        "state_code": "WLS",
+        "formatted": "Greggs, Adare Street, Bridgend, CF31 1ET, United Kingdom",
+        "address_line1": "Greggs",
+        "address_line2": "Adare Street, Bridgend, CF31 1ET, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food",
+          "catering.fast_food.sandwich"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Greggs",
+            "brand": "Greggs",
+            "osm_id": 11929491625,
+            "amenity": "fast_food",
+            "cuisine": "sandwich;bakery",
+            "osm_type": "n",
+            "takeaway": "yes",
+            "brand:wikidata": "Q3403981"
+          }
+        },
+        "brand": "Greggs",
+        "brand_details": {
+          "wikidata": "Q3403981"
+        },
+        "facilities": {
+          "takeaway": true
+        },
+        "catering": {
+          "cuisine": "sandwich;bakery"
+        },
+        "place_id": "518ca72f95c89f0cc0591d8bd4cadfc04940f00103f901a9980dc702000000920306477265676773"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5780192999999993,
+          51.5068295991716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Wyndham Arms",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1JE",
+        "suburb": "Bridgend",
+        "street": "Dunraven Place",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5793567,
+        "lat": 51.5066897,
+        "state_code": "WLS",
+        "formatted": "The Wyndham Arms, Dunraven Place, Bridgend, CF31 1JE, United Kingdom",
+        "address_line1": "The Wyndham Arms",
+        "address_line2": "Dunraven Place, Bridgend, CF31 1JE, United Kingdom",
+        "categories": [
+          "accommodation",
+          "accommodation.hotel",
+          "building",
+          "building.accommodation",
+          "building.catering",
+          "catering",
+          "catering.pub",
+          "internet_access",
+          "vegetarian",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "details": [
+          "details",
+          "details.accommodation",
+          "details.catering",
+          "details.contact",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Wyndham Arms",
+            "brand": "Wetherspoon",
+            "phone": "+44 1656673500",
+            "rooms": 26,
+            "osm_id": 6592686784,
+            "amenity": "pub",
+            "fhrs:id": 967289,
+            "name:cy": "Arfbais Wyndham",
+            "smoking": "outside",
+            "tourism": "hotel",
+            "building": "yes",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "diet:meat": "yes",
+            "wheelchair": "yes",
+            "addr:street": "Dunraven Place",
+            "description": "Wetherspoons Pub with Hotel above.",
+            "addr:country": "GB",
+            "addr:postcode": "CF31 1JE",
+            "opening_hours": "Mo-Th 07:00-24:00; Fr-Sa 07:00-25:00; Su 07:00-24:00",
+            "brand:wikidata": "Q6109362",
+            "brand:wikipedia": "en:Wetherspoons",
+            "contact:website": "https://www.jdwetherspoon.com/hotels/wales/bridgend/the-wyndham-arms",
+            "diet:vegetarian": "yes",
+            "internet_access": "wlan",
+            "diet:pescetarian": "yes"
+          }
+        },
+        "website": "https://www.jdwetherspoon.com/hotels/wales/bridgend/the-wyndham-arms",
+        "opening_hours": "Mo-Th 07:00-24:00; Fr-Sa 07:00-25:00; Su 07:00-24:00",
+        "brand": "Wetherspoon",
+        "brand_details": {
+          "wikidata": "Q6109362",
+          "wikipedia": "en:Wetherspoons"
+        },
+        "description": "Wetherspoons Pub with Hotel above.",
+        "name_international": {
+          "cy": "Arfbais Wyndham"
+        },
+        "contact": {
+          "phone": "+44 1656673500"
+        },
+        "facilities": {
+          "internet_access": true,
+          "wheelchair": true,
+          "smoking": true
+        },
+        "accommodation": {
+          "rooms": 26
+        },
+        "catering": {
+          "diet": {
+            "meat": true,
+            "vegetarian": true,
+            "pescetarian": true
+          }
+        },
+        "place_id": "5173bff9c385a20cc059c2944335dbc04940f00103f901c06af488010000009203105468652057796e6468616d2041726d73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5793566999999995,
+          51.506689699171616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zia Nina",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1JD",
+        "suburb": "Bridgend",
+        "street": "Dunraven Place",
+        "housenumber": "28",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5795711,
+        "lat": 51.506524,
+        "state_code": "WLS",
+        "formatted": "Zia Nina, 28 Dunraven Place, Bridgend, CF31 1JD, United Kingdom",
+        "address_line1": "Zia Nina",
+        "address_line2": "28 Dunraven Place, Bridgend, CF31 1JD, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "catering.restaurant.italian"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Zia Nina",
+            "email": "zianina.manager@gmail.com",
+            "phone": "+44 1656 660 045",
+            "osm_id": 4720903569,
+            "amenity": "restaurant",
+            "cuisine": "italian",
+            "fhrs:id": 968319,
+            "website": "https://zianina.co.uk/",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Dunraven Place",
+            "addr:postcode": "CF31 1JD",
+            "opening_hours": "Mo-Tu 16:00-22:00; We 12:00-22:00; Th 12:00-23:00; Fr 12:00-25:00; Sa 12:00-22:00; Su Off",
+            "addr:housenumber": 28
+          }
+        },
+        "website": "https://zianina.co.uk/",
+        "opening_hours": "Mo-Tu 16:00-22:00; We 12:00-22:00; Th 12:00-23:00; Fr 12:00-25:00; Sa 12:00-22:00; Su Off",
+        "contact": {
+          "phone": "+44 1656 660 045",
+          "email": "zianina.manager@gmail.com"
+        },
+        "catering": {
+          "cuisine": "italian"
+        },
+        "place_id": "5169a7412cf6a20cc0596c8a45c7d5c04940f00103f90191456319010000009203085a6961204e696e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5795710999999995,
+          51.50652399917166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tholos",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1ET",
+        "suburb": "Bridgend",
+        "street": "Adare Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5777492,
+        "lat": 51.5064693,
+        "state_code": "WLS",
+        "formatted": "Tholos, Adare Street, Bridgend, CF31 1ET, United Kingdom",
+        "address_line1": "Tholos",
+        "address_line2": "Adare Street, Bridgend, CF31 1ET, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "catering.restaurant.greek"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Tholos",
+            "osm_id": 11929491632,
+            "amenity": "restaurant",
+            "cuisine": "greek",
+            "osm_type": "n"
+          }
+        },
+        "catering": {
+          "cuisine": "greek"
+        },
+        "place_id": "514152faf83a9f0cc059672f6afcd3c04940f00103f901b0980dc70200000092030654686f6c6f73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5777492,
+          51.50646929917166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corvo Lounge",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1ET",
+        "suburb": "Bridgend",
+        "street": "Adare Street",
+        "housenumber": "3-7",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5780026,
+        "lat": 51.5064032,
+        "state_code": "WLS",
+        "formatted": "Corvo Lounge, 3-7 Adare Street, Bridgend, CF31 1ET, United Kingdom",
+        "address_line1": "Corvo Lounge",
+        "address_line2": "3-7 Adare Street, Bridgend, CF31 1ET, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [
+          "details",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Corvo Lounge",
+            "email": "corvo@thelounges.co.uk",
+            "phone": "+44 1656 664 389",
+            "osm_id": 11929491633,
+            "amenity": "restaurant",
+            "website": "https://thelounges.co.uk/corvo/",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Adare Street",
+            "addr:postcode": "CF31 1ET",
+            "opening_hours": "Mo-Th 09:00-23:00; Fr-Sa 09:00-24:00; Su 09:00-23:00",
+            "addr:housenumber": "3-7"
+          }
+        },
+        "website": "https://thelounges.co.uk/corvo/",
+        "opening_hours": "Mo-Th 09:00-23:00; Fr-Sa 09:00-24:00; Su 09:00-23:00",
+        "contact": {
+          "phone": "+44 1656 664 389",
+          "email": "corvo@thelounges.co.uk"
+        },
+        "place_id": "511506c0d3bf9f0cc0591b84edd1d1c04940f00103f901b1980dc70200000092030c436f72766f204c6f756e6765"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5780026,
+          51.506403199171665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aroma Cafe",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1JB",
+        "suburb": "Bridgend",
+        "street": "Dunraven Place",
+        "housenumber": "32",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5794467,
+        "lat": 51.5063213,
+        "state_code": "WLS",
+        "formatted": "Aroma Cafe, 32 Dunraven Place, Bridgend, CF31 1JB, United Kingdom",
+        "address_line1": "Aroma Cafe",
+        "address_line2": "32 Dunraven Place, Bridgend, CF31 1JB, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.cafe"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Aroma Cafe",
+            "phone": "+44 1656 655 880",
+            "osm_id": 4720903566,
+            "amenity": "cafe",
+            "fhrs:id": 967785,
+            "website": "https://aromacafebridgend.co.uk/",
+            "alt_name": "London House Cafe",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Dunraven Place",
+            "addr:postcode": "CF31 1JB",
+            "opening_hours": "Mo-Sa 08:00-16:00; Su Off",
+            "addr:housename": "London House",
+            "outdoor_seating": "no",
+            "addr:housenumber": 32,
+            "not:brand:wikidata": "Q2909872"
+          }
+        },
+        "website": "https://aromacafebridgend.co.uk/",
+        "opening_hours": "Mo-Sa 08:00-16:00; Su Off",
+        "name_other": {
+          "alt_name": "London House Cafe"
+        },
+        "contact": {
+          "phone": "+44 1656 655 880"
+        },
+        "facilities": {
+          "outdoor_seating": false
+        },
+        "place_id": "51743392f3b4a20cc059f49ae622cfc04940f00103f9018e4563190100000092030a41726f6d612043616665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5794467,
+          51.506321299171674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Subway",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1DN",
+        "suburb": "Bridgend",
+        "street": "Caroline Street",
+        "housenumber": "3",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5790558,
+        "lat": 51.50622,
+        "state_code": "WLS",
+        "formatted": "Subway, 3 Caroline Street, Bridgend, CF31 1DN, United Kingdom",
+        "address_line1": "Subway",
+        "address_line2": "3 Caroline Street, Bridgend, CF31 1DN, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food",
+          "catering.fast_food.sandwich"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Subway",
+            "brand": "Subway",
+            "osm_id": 4618125540,
+            "amenity": "fast_food",
+            "cuisine": "sandwich",
+            "fhrs:id": 968273,
+            "osm_type": "n",
+            "takeaway": "yes",
+            "addr:street": "Caroline Street",
+            "addr:postcode": "CF31 1DN",
+            "brand:wikidata": "Q244457",
+            "brand:wikipedia": "en:Subway (restaurant)",
+            "contact:website": "https://restaurants.subway.com/united-kingdom/wa/bridgend/3-caroline-street",
+            "addr:housenumber": 3
+          }
+        },
+        "website": "https://restaurants.subway.com/united-kingdom/wa/bridgend/3-caroline-street",
+        "brand": "Subway",
+        "brand_details": {
+          "wikidata": "Q244457",
+          "wikipedia": "en:Subway (restaurant)"
+        },
+        "facilities": {
+          "takeaway": true
+        },
+        "catering": {
+          "cuisine": "sandwich"
+        },
+        "place_id": "511279dc01e8a10cc059038322d1cbc04940f00103f901e400431301000000920306537562776179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5790558,
+          51.506219999171684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bryggen Eynde",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1DN",
+        "suburb": "Bridgend",
+        "street": "Caroline Street",
+        "housenumber": "11-13",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5783297,
+        "lat": 51.5061198,
+        "state_code": "WLS",
+        "formatted": "Bryggen Eynde, 11-13 Caroline Street, Bridgend, CF31 1DN, United Kingdom",
+        "address_line1": "Bryggen Eynde",
+        "address_line2": "11-13 Caroline Street, Bridgend, CF31 1DN, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Bryggen Eynde",
+            "brand": "Amber Taverns",
+            "osm_id": 11929491671,
+            "amenity": "pub",
+            "website": "https://ambertaverns.co.uk/pub/bryggen-eynde/",
+            "operator": "Amber Taverns",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Caroline Street",
+            "addr:postcode": "CF31 1DN",
+            "opening_hours": "Mo-Su 10:00-24:00",
+            "brand:wikidata": "Q122829228",
+            "addr:housenumber": "11-13"
+          }
+        },
+        "website": "https://ambertaverns.co.uk/pub/bryggen-eynde/",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "brand": "Amber Taverns",
+        "brand_details": {
+          "wikidata": "Q122829228"
+        },
+        "operator": "Amber Taverns",
+        "place_id": "51a5715e526ba00cc05979a69888c8c04940f00103f901d7980dc70200000092030d4272796767656e2045796e6465"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5783297,
+          51.50611979917171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Costa",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1DW",
+        "suburb": "Bridgend",
+        "street": "Caroline Street",
+        "housenumber": "31-37",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5771913,
+        "lat": 51.5059997,
+        "state_code": "WLS",
+        "formatted": "Costa, 31-37 Caroline Street, Bridgend, CF31 1DW, United Kingdom",
+        "address_line1": "Costa",
+        "address_line2": "31-37 Caroline Street, Bridgend, CF31 1DW, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.cafe",
+          "catering.cafe.coffee",
+          "catering.cafe.coffee_shop"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Costa",
+            "brand": "Costa",
+            "osm_id": 4720891074,
+            "amenity": "cafe",
+            "cuisine": "coffee_shop",
+            "fhrs:id": 968052,
+            "osm_type": "n",
+            "takeaway": "yes",
+            "addr:street": "Caroline Street",
+            "addr:postcode": "CF31 1DW",
+            "brand:wikidata": "Q608845",
+            "brand:wikipedia": "en:Costa Coffee",
+            "addr:housenumber": "31-37"
+          }
+        },
+        "brand": "Costa",
+        "brand_details": {
+          "wikidata": "Q608845",
+          "wikipedia": "en:Costa Coffee"
+        },
+        "facilities": {
+          "takeaway": true
+        },
+        "catering": {
+          "cuisine": "coffee_shop"
+        },
+        "place_id": "512949e878169e0cc0593add1f99c4c04940f00103f901c214631901000000920305436f737461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5771912999999995,
+          51.50599969917171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe Fresco",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1DU",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "4",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5770326,
+        "lat": 51.5057387,
+        "state_code": "WLS",
+        "formatted": "Cafe Fresco, 4 Nolton Street, Bridgend, CF31 1DU, United Kingdom",
+        "address_line1": "Cafe Fresco",
+        "address_line2": "4 Nolton Street, Bridgend, CF31 1DU, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.cafe",
+          "internet_access"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Cafe Fresco",
+            "phone": "+44 1656 653391",
+            "osm_id": 10269533323,
+            "amenity": "cafe",
+            "cuisine": "regional;coffee_shop;burger",
+            "website": "https://www.cafefrescowales.co.uk/bridgend-menu",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Nolton Street",
+            "addr:country": "GB",
+            "addr:postcode": "CF31 1DU",
+            "opening_hours": "Mo-Sa 08:00-16:00",
+            "internet_access": "wlan",
+            "outdoor_seating": "no",
+            "addr:housenumber": 4
+          }
+        },
+        "website": "https://www.cafefrescowales.co.uk/bridgend-menu",
+        "opening_hours": "Mo-Sa 08:00-16:00",
+        "contact": {
+          "phone": "+44 1656 653391"
+        },
+        "facilities": {
+          "internet_access": true,
+          "outdoor_seating": false
+        },
+        "catering": {
+          "cuisine": "regional;coffee_shop;burger"
+        },
+        "place_id": "518ace8d44c39d0cc059d3a1b20bbcc04940f00103f9018ba41c640200000092030b436166652046726573636f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5770326,
+          51.50573869917175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cariad Coffi",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "postcode": "CF31 3BL",
+        "suburb": "Bridgend",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5773303,
+        "lat": 51.5055432,
+        "state_code": "WLS",
+        "formatted": "Cariad Coffi, Bridgend County Borough, CF31 3BL, United Kingdom",
+        "address_line1": "Cariad Coffi",
+        "address_line2": "Bridgend County Borough, CF31 3BL, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.cafe",
+          "catering.cafe.coffee",
+          "catering.cafe.coffee_shop"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Cariad Coffi",
+            "osm_id": 11929491652,
+            "amenity": "cafe",
+            "cuisine": "coffee_shop",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:place": "Rhiw Shopping Centre",
+            "addr:postcode": "CF31 3BL"
+          }
+        },
+        "catering": {
+          "cuisine": "coffee_shop"
+        },
+        "place_id": "513feb2b595f9e0cc0593a94b9a3b5c04940f00103f901c4980dc70200000092030c43617269616420436f666669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5773302999999994,
+          51.50554319917178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Three Horseshoes",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1HU",
+        "suburb": "Bridgend",
+        "street": "Queen Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5785466,
+        "lat": 51.5054574,
+        "state_code": "WLS",
+        "formatted": "The Three Horseshoes, Queen Street, Bridgend, CF31 1HU, United Kingdom",
+        "address_line1": "The Three Horseshoes",
+        "address_line2": "Queen Street, Bridgend, CF31 1HU, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub",
+          "internet_access"
+        ],
+        "details": [
+          "details.facilities",
+          "details.payment",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Three Horseshoes",
+            "osm_id": 6592792685,
+            "amenity": "pub",
+            "fhrs:id": 1200832,
+            "smoking": "outside",
+            "osm_type": "n",
+            "wikidata": "Q80858131",
+            "addr:street": "Queen Street",
+            "payment:cash": "yes",
+            "addr:postcode": "CF31 1HU",
+            "internet_access": "wlan",
+            "payment:debit_cards": "yes",
+            "payment:credit_cards": "yes"
+          }
+        },
+        "facilities": {
+          "internet_access": true,
+          "smoking": true
+        },
+        "wiki_and_media": {
+          "wikidata": "Q80858131"
+        },
+        "payment_options": {
+          "cash": true,
+          "debit_cards": true,
+          "credit_cards": true
+        },
+        "place_id": "512ab2310adda00cc059677bfbd3b2c04940f00103f9016d08f6880100000092031454686520546872656520486f72736573686f6573"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5785466,
+          51.505457399171796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taste of Thialand",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1DL",
+        "suburb": "Bridgend",
+        "street": "The Rhiw",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5783603,
+        "lat": 51.505243,
+        "state_code": "WLS",
+        "formatted": "Taste of Thialand, The Rhiw, Bridgend, CF31 1DL, United Kingdom",
+        "address_line1": "Taste of Thialand",
+        "address_line2": "The Rhiw, Bridgend, CF31 1DL, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.cafe"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Taste of Thialand",
+            "phone": "+44 1656 224358",
+            "osm_id": 10271277007,
+            "amenity": "cafe",
+            "cuisine": "thai",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "The Rhiw",
+            "addr:country": "GB",
+            "addr:postcode": "CF31 1DL",
+            "opening_hours": "Mo-Sa 09:00-17:00"
+          }
+        },
+        "opening_hours": "Mo-Sa 09:00-17:00",
+        "contact": {
+          "phone": "+44 1656 224358"
+        },
+        "catering": {
+          "cuisine": "thai"
+        },
+        "place_id": "5120706e5d7ba00cc059edfc76cdabc04940f00103f901cf3f3764020000009203115461737465206f6620546869616c616e64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5783603,
+          51.505242999171834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Cocina",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1DU",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5767961,
+        "lat": 51.5052214,
+        "state_code": "WLS",
+        "formatted": "La Cocina, Nolton Street, Bridgend, CF31 1DU, United Kingdom",
+        "address_line1": "La Cocina",
+        "address_line2": "Nolton Street, Bridgend, CF31 1DU, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "La Cocina",
+            "osm_id": 11929491657,
+            "amenity": "restaurant",
+            "osm_type": "n"
+          }
+        },
+        "place_id": "51caae0f46479d0cc05957574518abc04940f00103f901c9980dc7020000009203094c6120436f63696e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5767961,
+          51.50522139917182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dragon Cafe",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 1DU",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "16",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5771119,
+        "lat": 51.5051341,
+        "state_code": "WLS",
+        "formatted": "Dragon Cafe, 16 Nolton Street, Bridgend, CF31 1DU, United Kingdom",
+        "address_line1": "Dragon Cafe",
+        "address_line2": "16 Nolton Street, Bridgend, CF31 1DU, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.cafe"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Dragon Cafe",
+            "phone": "+44 1656 858722",
+            "osm_id": 10269758852,
+            "amenity": "cafe",
+            "cuisine": "dessert;sandwich;regional",
+            "website": "https://dragoncafebridgend.co.uk/menu/",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Nolton Street",
+            "addr:country": "GB",
+            "addr:postcode": "CF31 1DU",
+            "opening_hours": "Mo-Su 08:00-16:00",
+            "outdoor_seating": "no",
+            "addr:housenumber": 16
+          }
+        },
+        "website": "https://dragoncafebridgend.co.uk/menu/",
+        "opening_hours": "Mo-Su 08:00-16:00",
+        "contact": {
+          "phone": "+44 1656 858722"
+        },
+        "facilities": {
+          "outdoor_seating": false
+        },
+        "catering": {
+          "cuisine": "dessert;sandwich;regional"
+        },
+        "place_id": "51320f05d8ec9d0cc059cb04f23ba8c04940f00103f901841520640200000092030b447261676f6e2043616665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5771118999999993,
+          51.50513409917183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Kings Head",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "44",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.577083,
+        "lat": 51.5042812,
+        "state_code": "WLS",
+        "formatted": "The Kings Head, 44 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "The Kings Head",
+        "address_line2": "44 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "details": [
+          "details",
+          "details.facilities",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Kings Head",
+            "osm_id": 1531370599,
+            "amenity": "pub",
+            "website": "https://www.craftunionpubs.com/kings-head-bridgend",
+            "operator": "Stonegate",
+            "osm_type": "n",
+            "wikidata": "Q80858128",
+            "addr:city": "Bridgend",
+            "wheelchair": "yes",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3BP",
+            "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-26:00; Su 11:00-23:00",
+            "addr:housenumber": 44,
+            "operator:wikidata": "Q7619176"
+          }
+        },
+        "website": "https://www.craftunionpubs.com/kings-head-bridgend",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-26:00; Su 11:00-23:00",
+        "operator": "Stonegate",
+        "operator_details": {
+          "wikidata": "Q7619176"
+        },
+        "facilities": {
+          "wheelchair": true
+        },
+        "wiki_and_media": {
+          "wikidata": "Q80858128"
+        },
+        "place_id": "51dc9e20b1dd9d0cc05931374d498cc04940f00103f90167dc465b0000000092030e546865204b696e67732048656164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.577083,
+          51.50428119917195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Viva Mexicana",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "postcode": "CF31 1DD",
+        "suburb": "Bridgend",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.576776,
+        "lat": 51.5040591,
+        "state_code": "WLS",
+        "formatted": "Viva Mexicana, Bridgend County Borough, CF31 1DD, United Kingdom",
+        "address_line1": "Viva Mexicana",
+        "address_line2": "Bridgend County Borough, CF31 1DD, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "catering.restaurant.mexican"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Viva Mexicana",
+            "osm_id": 4704019674,
+            "amenity": "restaurant",
+            "cuisine": "mexican",
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:place": "Bridgend Shopping Centre",
+            "addr:postcode": "CF31 1DD"
+          }
+        },
+        "catering": {
+          "cuisine": "mexican"
+        },
+        "place_id": "510bf148bc3c9d0cc059ef18310285c04940f00103f901daa461180100000092030d56697661204d65786963616e61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.576776,
+          51.50405909917196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wai Chan",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "52",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5769315,
+        "lat": 51.5038739,
+        "state_code": "WLS",
+        "formatted": "Wai Chan, 52 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "Wai Chan",
+        "address_line2": "52 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Wai Chan",
+            "osm_id": 1531396748,
+            "amenity": "fast_food",
+            "cuisine": "international",
+            "fhrs:id": 968133,
+            "osm_type": "n",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3BP",
+            "addr:housenumber": 52
+          }
+        },
+        "catering": {
+          "cuisine": "international"
+        },
+        "place_id": "51fe4124438e9d0cc0593a209ff07ec04940f00103f9018c42475b00000000920308576169204368616e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5769314999999997,
+          51.50387389917201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ashoka",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "68",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.57686,
+        "lat": 51.5034749,
+        "state_code": "WLS",
+        "formatted": "Ashoka, 68 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "Ashoka",
+        "address_line2": "68 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "catering.restaurant.indian"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Ashoka",
+            "osm_id": 4704019678,
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "fhrs:id": 967267,
+            "osm_type": "n",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3BP",
+            "addr:housenumber": 68
+          }
+        },
+        "catering": {
+          "cuisine": "indian"
+        },
+        "place_id": "51e8f692c6689d0cc059832691dd71c04940f00103f901dea46118010000009203064173686f6b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.57686,
+          51.503474899172055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Exotic Shaad",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "72",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5768142,
+        "lat": 51.5033185,
+        "state_code": "WLS",
+        "formatted": "Exotic Shaad, 72 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "Exotic Shaad",
+        "address_line2": "72 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "catering.restaurant.indian"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Exotic Shaad",
+            "osm_id": 4704019680,
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "fhrs:id": 1176511,
+            "osm_type": "n",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3BP",
+            "addr:housenumber": 72
+          }
+        },
+        "catering": {
+          "cuisine": "indian"
+        },
+        "place_id": "517cf266c3509d0cc0593ab596bd6cc04940f00103f901e0a461180100000092030c45786f746963205368616164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5768141999999994,
+          51.50331849917207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dash",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BT",
+        "suburb": "Bridgend",
+        "street": "Chapel Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5768035,
+        "lat": 51.5032489,
+        "state_code": "WLS",
+        "formatted": "Dash, Chapel Street, Bridgend, CF31 3BT, United Kingdom",
+        "address_line1": "Dash",
+        "address_line2": "Chapel Street, Bridgend, CF31 3BT, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "catering.restaurant.fish",
+          "catering.restaurant.fish_and_chips"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Dash",
+            "osm_id": 4704019681,
+            "amenity": "restaurant",
+            "cuisine": "fish_and_chips",
+            "osm_type": "n"
+          }
+        },
+        "catering": {
+          "cuisine": "fish_and_chips"
+        },
+        "place_id": "5127bf45274b9d0cc05996d8bd756ac04940f00103f901e1a461180100000092030444617368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5768035,
+          51.50324889917208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Deli-Licious",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3AE",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "57",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5765493,
+        "lat": 51.5032252,
+        "state_code": "WLS",
+        "formatted": "Deli-Licious, 57 Nolton Street, Bridgend, CF31 3AE, United Kingdom",
+        "address_line1": "Deli-Licious",
+        "address_line2": "57 Nolton Street, Bridgend, CF31 3AE, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Deli-Licious",
+            "osm_id": 1531403619,
+            "amenity": "fast_food",
+            "fhrs:id": 967782,
+            "osm_type": "n",
+            "addr:city": "Bridgend",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3AE",
+            "addr:housenumber": 57
+          }
+        },
+        "place_id": "51e74020e1c59c0cc059ce7beeae69c04940f00103f901635d475b0000000092030c44656c692d4c6963696f7573"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5765492999999995,
+          51.50322519917209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raj Balti",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3AE",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "59-61",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5765427,
+        "lat": 51.5030793,
+        "state_code": "WLS",
+        "formatted": "Raj Balti, 59-61 Nolton Street, Bridgend, CF31 3AE, United Kingdom",
+        "address_line1": "Raj Balti",
+        "address_line2": "59-61 Nolton Street, Bridgend, CF31 3AE, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Raj Balti",
+            "osm_id": 4704020198,
+            "amenity": "restaurant",
+            "fhrs:id": 1104712,
+            "osm_type": "n",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3AE",
+            "addr:housenumber": "59-61"
+          }
+        },
+        "place_id": "51f6fa496bc29c0cc059909e08e764c04940f00103f901e6a661180100000092030952616a2042616c7469"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5765427,
+          51.5030792991721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Golden Bowl",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "80",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5767187,
+        "lat": 51.5030435,
+        "state_code": "WLS",
+        "formatted": "The Golden Bowl, 80 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "The Golden Bowl",
+        "address_line2": "80 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Golden Bowl",
+            "osm_id": 4704019684,
+            "amenity": "restaurant",
+            "fhrs:id": 968066,
+            "osm_type": "n",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3BP",
+            "addr:housenumber": 80
+          }
+        },
+        "place_id": "51deee9bb11e9d0cc0596cb4b8ba63c04940f00103f901e4a461180100000092030f54686520476f6c64656e20426f776c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5767187,
+          51.503043499172094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lucky Star",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "84",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.576687,
+        "lat": 51.5029778,
+        "state_code": "WLS",
+        "formatted": "Lucky Star, 84 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "Lucky Star",
+        "address_line2": "84 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Lucky Star",
+            "osm_id": 4704019686,
+            "amenity": "fast_food",
+            "cuisine": "asian",
+            "fhrs:id": 968016,
+            "osm_type": "n",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3BP",
+            "addr:housenumber": 84
+          }
+        },
+        "catering": {
+          "cuisine": "asian"
+        },
+        "place_id": "51103ae8120e9d0cc0597707979361c04940f00103f901e6a461180100000092030a4c75636b792053746172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5766869999999997,
+          51.50297779917212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delhi Spice",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "86",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5767019,
+        "lat": 51.5029446,
+        "state_code": "WLS",
+        "formatted": "Delhi Spice, 86 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "Delhi Spice",
+        "address_line2": "86 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "catering.restaurant.indian"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Delhi Spice",
+            "osm_id": 4704019687,
+            "amenity": "restaurant",
+            "cuisine": "indian",
+            "fhrs:id": 1004708,
+            "osm_type": "n",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3BP",
+            "addr:housenumber": 86
+          }
+        },
+        "catering": {
+          "cuisine": "indian"
+        },
+        "place_id": "511954c0e2159d0cc0597192167d60c04940f00103f901e7a461180100000092030b44656c6869205370696365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5767019,
+          51.50294459917212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frankie's Ice Cream Shop",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "88",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.57667,
+        "lat": 51.50289,
+        "state_code": "WLS",
+        "formatted": "Frankie's Ice Cream Shop, 88 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "Frankie's Ice Cream Shop",
+        "address_line2": "88 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.ice_cream"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Frankie's Ice Cream Shop",
+            "osm_id": 4704019688,
+            "amenity": "ice_cream",
+            "fhrs:id": 980125,
+            "osm_type": "n",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3BP",
+            "addr:housenumber": 88
+          }
+        },
+        "place_id": "51b0ac3429059d0cc05902f711b35ec04940f00103f901e8a46118010000009203184672616e6b696527732049636520437265616d2053686f70"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.57667,
+          51.502889999172126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Old Castle",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "90",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.576645,
+        "lat": 51.5028135,
+        "state_code": "WLS",
+        "formatted": "The Old Castle, 90 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "The Old Castle",
+        "address_line2": "90 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub"
+        ],
+        "details": [
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Old Castle",
+            "osm_id": 4704020189,
+            "amenity": "pub",
+            "fhrs:id": 1127993,
+            "osm_type": "n",
+            "wikidata": "Q80858191",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3BP",
+            "addr:housenumber": 90
+          }
+        },
+        "wiki_and_media": {
+          "wikidata": "Q80858191"
+        },
+        "place_id": "512137c30df89c0cc059427757315cc04940f00103f901dda661180100000092030e546865204f6c6420436173746c65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5766449999999996,
+          51.50281349917215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jade",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5766224,
+        "lat": 51.5027138,
+        "state_code": "WLS",
+        "formatted": "Jade, Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "Jade",
+        "address_line2": "Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Jade",
+            "osm_id": 4704020190,
+            "amenity": "restaurant",
+            "osm_type": "n"
+          }
+        },
+        "place_id": "51d4207134ec9c0cc0599e58ffec58c04940f00103f901dea66118010000009203044a616465"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5766223999999998,
+          51.502713799172156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olympic Fast Food",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3BP",
+        "suburb": "Bridgend",
+        "street": "Nolton Street",
+        "housenumber": "100",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5765859,
+        "lat": 51.5025199,
+        "state_code": "WLS",
+        "formatted": "Olympic Fast Food, 100 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "address_line1": "Olympic Fast Food",
+        "address_line2": "100 Nolton Street, Bridgend, CF31 3BP, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.fast_food",
+          "catering.fast_food.kebab",
+          "catering.fast_food.pizza"
+        ],
+        "details": [
+          "details.catering",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Olympic Fast Food",
+            "osm_id": 4632013115,
+            "amenity": "fast_food",
+            "cuisine": "pizza;kebab",
+            "fhrs:id": 967269,
+            "osm_type": "n",
+            "takeaway": "yes",
+            "addr:city": "Bridgend",
+            "addr:street": "Nolton Street",
+            "addr:postcode": "CF31 3BP",
+            "addr:housenumber": 100
+          }
+        },
+        "facilities": {
+          "takeaway": true
+        },
+        "catering": {
+          "cuisine": "pizza;kebab"
+        },
+        "place_id": "5186ad7e11d99c0cc0595344729252c04940f00103f9013be91614010000009203114f6c796d706963204661737420466f6f64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5765859000000004,
+          51.50251989917219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Five Bells",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "state": "Wales",
+        "county": "Bridgend County Borough",
+        "city": "Bridgend",
+        "postcode": "CF31 3HN",
+        "suburb": "Bridgend",
+        "street": "Heol Ewenni",
+        "housenumber": "7",
+        "iso3166_2": "GB-WLS",
+        "iso3166_2_sublevel": "GB-BGE",
+        "lon": -3.5761529,
+        "lat": 51.5017216,
+        "state_code": "WLS",
+        "formatted": "Five Bells, 7 Heol Ewenni, Bridgend, CF31 3HN, United Kingdom",
+        "address_line1": "Five Bells",
+        "address_line2": "7 Heol Ewenni, Bridgend, CF31 3HN, United Kingdom",
+        "categories": [
+          "catering",
+          "catering.pub"
+        ],
+        "details": [
+          "details.facilities",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Five Bells",
+            "osm_id": 1531411389,
+            "amenity": "pub",
+            "brewery": "yes",
+            "fhrs:id": 1209705,
+            "smoking": "outside",
+            "osm_type": "n",
+            "wikidata": "Q80858172",
+            "addr:street": "Ewenni Road",
+            "addr:postcode": "CF31 3HN",
+            "addr:housenumber": 7
+          }
+        },
+        "facilities": {
+          "smoking": true
+        },
+        "wiki_and_media": {
+          "wikidata": "Q80858172"
+        },
+        "place_id": "51e7f6370df69b0cc0592412d26938c04940f00103f901bd7b475b0000000092030a466976652042656c6c73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5761529,
+          51.50172159917227
+        ]
+      }
+    }
+  ]
+}

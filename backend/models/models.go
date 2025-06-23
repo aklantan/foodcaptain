@@ -11,5 +11,5 @@ type Restaurant struct {
 	CreatedAt      time.Time `gorm:"not null"`
 	UpdatedAt      time.Time `gorm:"not null"`
 	RestaurantName string    `gorm:"column:restaurant_name;type:text;not null"`
-	Cuisine        *string   `gorm:"type:text"`
+	Cuisine        string    `gorm:"type:text"`
 }
