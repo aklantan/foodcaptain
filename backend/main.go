@@ -9,13 +9,53 @@ import (
 	"github.com/aklantan/foodcaptain/backend/models"
 	"github.com/aklantan/foodcaptain/backend/sql/queries"
 	"github.com/gin-gonic/gin"
+	"github.com/gorilla/websocket"
 	"github.com/joho/godotenv"
 	"gorm.io/gorm"
 )
 
 type apiConfig struct {
-	db_query    *gorm.DB
-	tokenSecret string
+	db_query       *gorm.DB
+	tokenSecret    string
+	socketUpgrader websocket.Upgrader
+	clientList     map[*websocket.Conn]bool
+}
+
+func (c *apiConfig) webSocketHandler(g *gin.Context) {
+	ws, err := c.socketUpgrader.Upgrade(g.Writer, g.Request, nil)
+	if err != nil {
+		fmt.Println("Cannot upgrade connection")
+		return
+	}
+	defer ws.Close()
+
+	c.clientList[ws] = true
+
+	for {
+		_, msg, err := ws.ReadMessage()
+		if err != nil {
+			fmt.Println("read error:", err)
+			delete(c.clientList, ws)
+			break
+		}
+
+		for client := range c.clientList {
+			if string(msg) == "Walls" {
+				if err := client.WriteMessage(websocket.TextMessage, []byte("Sausages")); err != nil {
+					fmt.Println("broadcast error:", err)
+					client.Close()
+					delete(c.clientList, client)
+				}
+				break
+
+			}
+			if err := client.WriteMessage(websocket.TextMessage, msg); err != nil {
+				fmt.Println("broadcast error:", err)
+				client.Close()
+				delete(c.clientList, client)
+			}
+		}
+	}
 }
 
 func (c *apiConfig) returnRestaurants(g *gin.Context) {
@@ -42,14 +82,23 @@ func (c *apiConfig) returnRestaurants(g *gin.Context) {
 
 func main() {
 
+	var upgrader = websocket.Upgrader{
+		ReadBufferSize:  1024,
+		WriteBufferSize: 1024,
+		CheckOrigin:     func(r *http.Request) bool { return true },
+	}
+
 	err := godotenv.Load("../.env")
 	if err != nil {
 		panic("Error loading env file")
 	}
 	db := queries.InitDB()
+	var clients = make(map[*websocket.Conn]bool)
 
 	apiCfg := &apiConfig{
-		db_query: db,
+		db_query:       db,
+		socketUpgrader: upgrader,
+		clientList:     clients,
 	}
 
 	server := gin.Default()
@@ -60,6 +109,7 @@ func main() {
 	})
 	server.GET("/test", handlers.TestConnection)
 	server.GET("/restaurants", apiCfg.returnRestaurants)
+	server.GET("/ws", apiCfg.webSocketHandler)
 
 	server.Run("127.0.0.1:8999")
 }
