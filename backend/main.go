@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"net/http"
 	"strconv"
+	"sync"
 
 	"github.com/aklantan/foodcaptain/backend/handlers"
 	"github.com/aklantan/foodcaptain/backend/models"
@@ -18,10 +20,44 @@ type apiConfig struct {
 	db_query       *gorm.DB
 	tokenSecret    string
 	socketUpgrader websocket.Upgrader
-	clientList     map[*websocket.Conn]bool
+	sessionList    map[string]*Session
+}
+
+type Session struct {
+	ID      string
+	Clients map[*websocket.Conn]bool
+	Mutex   sync.Mutex
 }
 
 func (c *apiConfig) webSocketHandler(g *gin.Context) {
+	sessionID := g.Query("sessionID")
+	fmt.Println(sessionID)
+
+	if sessionID == "" {
+		fmt.Println("No sessionID provided, generating a new one")
+		// generate...
+	} else {
+		fmt.Println("Using sessionID from query:", sessionID)
+	}
+
+	if sessionID == "" {
+		// rand.Seed(time.Now().UnixNano()) // Seed with current time for randomness
+		min := int64(100000000000) // Smallest 12-digit number
+		max := int64(999999999999) // Largest 12-digit number
+		num := rand.Int63n(max-min+1) + min
+		sessionID = "sessno" + strconv.FormatInt(num, 10)
+	}
+	fmt.Println(sessionID)
+
+	if _, exists := c.sessionList[sessionID]; !exists {
+		newSession := &Session{
+			ID:      sessionID,
+			Clients: make(map[*websocket.Conn]bool),
+		}
+		c.sessionList[sessionID] = newSession
+
+	}
+
 	ws, err := c.socketUpgrader.Upgrade(g.Writer, g.Request, nil)
 	if err != nil {
 		fmt.Println("Cannot upgrade connection")
@@ -29,22 +65,25 @@ func (c *apiConfig) webSocketHandler(g *gin.Context) {
 	}
 	defer ws.Close()
 
-	c.clientList[ws] = true
+	session := c.sessionList[sessionID]
+	session.Mutex.Lock()
+	session.Clients[ws] = true
+	session.Mutex.Unlock()
 
 	for {
 		_, msg, err := ws.ReadMessage()
 		if err != nil {
 			fmt.Println("read error:", err)
-			delete(c.clientList, ws)
+			delete(session.Clients, ws)
 			break
 		}
 
-		for client := range c.clientList {
+		for client := range session.Clients {
 			if string(msg) == "Walls" {
 				if err := client.WriteMessage(websocket.TextMessage, []byte("Sausages")); err != nil {
 					fmt.Println("broadcast error:", err)
 					client.Close()
-					delete(c.clientList, client)
+					delete(session.Clients, client)
 				}
 				break
 
@@ -52,7 +91,7 @@ func (c *apiConfig) webSocketHandler(g *gin.Context) {
 			if err := client.WriteMessage(websocket.TextMessage, msg); err != nil {
 				fmt.Println("broadcast error:", err)
 				client.Close()
-				delete(c.clientList, client)
+				delete(session.Clients, client)
 			}
 		}
 	}
@@ -93,12 +132,12 @@ func main() {
 		panic("Error loading env file")
 	}
 	db := queries.InitDB()
-	var clients = make(map[*websocket.Conn]bool)
+	var sessions = make(map[string]*Session)
 
 	apiCfg := &apiConfig{
 		db_query:       db,
 		socketUpgrader: upgrader,
-		clientList:     clients,
+		sessionList:    sessions,
 	}
 
 	server := gin.Default()
